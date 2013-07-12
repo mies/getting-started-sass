@@ -4,4 +4,4 @@ build:
     - bundle-install
     - script:
         name: compile compass assets
-        code: compass compile
+        code: bundle exec compass compile
